@@ -115,7 +115,7 @@ public abstract class FirestoreAdapter<VH extends RecyclerView.ViewHolder>
         mQuery = query;
     }
 
-    // Add this code from Step 7 of the codelab:
+   //startListening method
 
     public void startListening() {
         if (mQuery != null && mRegistration == null) {
